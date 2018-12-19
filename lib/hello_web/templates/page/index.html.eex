@@ -1,0 +1,19 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<div style="display:flex; height: 43px;"><button id="create_coins" type="button"  class="btn btn-info">Create Coins</button>&nbsp;&nbsp;&nbsp;
+<button id="start_transactions" type="button"  class="btn btn-info">Start Transactions</button>
+<div id="transactions_msg" style="font-size: larger;"></div>&nbsp;&nbsp;&nbsp;
+<div class="w3-light-grey">
+  <div id="myBar" class="w3-container w3-green w3-center" style="width:0%;background-color: green;color: white;text-align: center;height: 43px;border-radius: 4px;"></div>
+</div>
+</div>
+<br/>
+<div id="messages" style="font-weight: bold;font-size: larger;"></div>
+<div id="bitcoins" class="bitcoin" height="450px" style="height: 250px;overflow: auto;font-weight: bold;border: double;"></div>
+<div class="wrapper">
+<canvas id="bar-chart" width="800" height="450"></canvas>
+</div>
+<div class="wrapper">
+  <canvas id="bar-chart1" width="800" height="450"></canvas>
+</div>
+<!-- <div id="bitcoins" height="450px"></div> -->
